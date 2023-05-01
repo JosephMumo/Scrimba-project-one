@@ -1,0 +1,57 @@
+body {
+  background-color: white;
+}
+.App-container {
+  border: 2px solid black;
+  width: 20rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  border-radius: 8px;
+  font-family: inter;
+  color: white;
+  background-color: #080808;
+}
+.footer-container {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  width: 100%;
+  min-width: 20%;
+}
+.btn-container {
+  display: flex;
+  padding: 0 2rem;
+}
+button {
+  width: 8rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  align-items: center;
+  border-radius: 6px;
+  border: none;
+}
+button[id="email"] {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+button[id="in"] {
+  background-color: #0077b5;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.desc-container {
+  text-align: left;
+  padding: 0 2rem;
+} 
+.header-container img {
+  max-width: 20rem;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+}
